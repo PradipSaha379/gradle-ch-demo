@@ -1,0 +1,102 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"username": "smustaq1",
+	"accesskey": "jc4g4SP2RfuV4c38PNYa",
+	"commonCapabilities": {
+		"projectName": "Project Name - KSNA",
+		"buildName": "Desktop Tests",
+		"debug": true,
+		"video": true,
+		"networkLogs": true,
+		"maskCommands": "setValues, getValues, setCookies, getCookies",
+		"seleniumLogs": true,
+		"local": false
+	},
+	"os": {
+		"windows": {
+			"capabilities": {
+				"os": "Windows",
+				"debug": true,
+				"video": true,
+				"networkLogs": true,
+				"maskCommands": "setValues, getValues, setCookies, getCookies",
+				"seleniumVersion": "3.141.0",
+				"seleniumLogs": true
+			},
+			"browsers": [
+				{
+					"sessionName": "BrowserStack:Windows:Chrome:Tests",
+					"browserName": "chrome",
+					"browserVersion": "latest",
+					"osVersion": "10.0",
+					"acceptSslCert": true
+				},
+				{
+					"sessionName": "BrowserStack:Windows:IE:Tests",
+					"browserName": "IE",
+					"browserVersion": "11.0",
+					"osVersion": "8.1",
+					"browserstack.sendKeys": true,
+					"noFlash": true,
+					"enablePopups": true
+				},
+				{
+					"sessionName": "BrowserStack:Windows:Edge:Tests",
+					"browserName": "edge",
+					"browserVersion": "latest",
+					"enablePopups": true
+				},
+				{
+					"sessionName": "BrowserStack:Windows:Firefox:Tests",
+					"browserName": "firefox",
+					"browserVersion": "latest",
+					"enablePopups": true
+				}
+			]
+		},
+		"mac": {
+			"capabilities": {
+				"os": "OS X",
+				"debug": true,
+				"video": true,
+				"networkLogs": false,
+				"maskCommands": "setValues, getValues, setCookies, getCookies",
+				"seleniumLogs": true
+			},
+			"browsers": [
+				{
+					"sessionName": "BrowserStack:Mac:Chrome:Tests",
+					"browserName": "chrome",
+					"browserVersion": "latest",
+					"os": "OS X",
+					"osVersion": "Catalina"
+				},
+				{
+					"sessionName": "BrowserStack:Mac:Safari:Tests",
+					"browserName": "Safari",
+					"browserVersion": "14",
+					"allowAllCookies": true,
+					"enablePopups": true,
+					"os": "OS X",
+					"osVersion": "Catalina"
+				},
+				{
+					"sessionName": "BrowserStack:Mac:Firefox:Tests",
+					"browserName": "Firefox",
+					"browserVersion": "latest",
+					"enablePopups": true,
+					"os": "OS X",
+					"osVersion": "Catalina"
+				},
+				{
+					"sessionName": "BrowserStack:Mac:Edge:Tests",
+					"browserName": "edge",
+					"browserVersion": "latest",
+					"enablePopups": true,
+					"os": "OS X",
+					"osVersion": "Catalina"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"commonCapabilities": {
+		
+	},
+	"os": {
+		"windows": {
+			"capabilities": {
+				
+			},
+			"browsers": [
+				{
+					"browserName": "Chrome",
+					"unexpectedAlertBehaviour": "accept",
+					"args": " --headless, --disable-gpu, --disable-dev-shm-usage, --no-sandbox",
+					"handlesAlerts": true,
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true
+				},
+				{
+					"browserName": "IE",
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true,
+					"ie.ensureCleanSession": true
+				},
+				{
+					"browserName": "Edge",
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true
+				},
+				{
+					"browserName": "Firefox",
+					"args": "--headless,--disable-gpu,--disable-dev-shm-usage,--no-sandbox",
+					"marionette": true,
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true,
+					"dom.webnotifications.enabled": false,
+					"geo.enabled": false,
+					"geo.provider.use_corelocation": false,
+					"geo.prompt.testing": false,
+					"geo.prompt.testing.allow": false,
+					"marionette.actors.enabled": false,
+					"geo.wifi.uri": "data:application/json,{\"status\":\"OK\",\"accuracy\":10.0,\"location\":{\"lat\":45.0,\"lng\":-122.0}}\""
+				}
+			]
+		},
+		"mac": {
+			"capabilities": {
+				
+			},
+			"browsers": [
+				{
+					"browserName": "Safari"
+				}
+			]
+		},
+		"linux": {
+			"capabilities": {
+				
+			},
+			"browsers": [
+				{
+					"browserName": "Chrome",
+					"args": "--headless,--disable-gpu,--disable-dev-shm-usage,--no-sandbox"
+				},
+				{
+					"browserName": "Firefox",
+					"args": "enable-automation, --headless, --disable-gpu, --disable-dev-shm-usage, --no-sandbox, window-size=1920,800"
+				}
+			]
+		}
+	}
+}
+
+

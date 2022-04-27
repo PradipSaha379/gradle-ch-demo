@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="methods" name="Failed suite [SmokeTest]" guice-stage="DEVELOPMENT">
+  <parameter name="autversion" value=""/>
+  <parameter name="formfactor" value="desktop"/>
+  <parameter name="autURL" value=""/>
+  <parameter name="os" value="windows"/>
+  <parameter name="siteName" value="demo"/>
+  <parameter name="subscriptionKey" value="62b53708-2927-4d46-9912-dbaf4e9cd4c7"/>
+  <parameter name="executionId" value="dex-08"/>
+  <parameter name="environment" value="dev"/>
+  <parameter name="suite" value="Smoke"/>
+  <parameter name="osVersion" value=""/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="integration" value="local"/>
+  <parameter name="projectName" value="demo"/>
+  <parameter name="device" value=""/>
+  <parameter name="group" value="Full"/>
+  <listeners>
+    <listener class-name="com.demo.listeners.SuiteAlterListener"/>
+    <listener class-name="com.ch.retry.RetryAnalyzerAnnotationTransformerListener"/>
+  </listeners>
+  <packages>
+    <package name="com.demo.desktoptests"/>
+  </packages>
+  <test thread-count="6" parallel="methods" name="Tests(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.demo.desktoptests.GlobalTest">
+        <methods>
+          <include name="isTopNavigation"/>
+          <include name="setUpRunConfig"/>
+          <include name="afterSuite"/>
+          <include name="isTopNavigationFailureWithRetry"/>
+          <include name="testStoreDataProvider"/>
+          <include name="isTopNavigation5"/>
+          <include name="isTopNavigationFailureWithCustomExceptionInTheEnd"/>
+          <include name="beforeSuite"/>
+          <include name="isTopNavigation2"/>
+          <include name="beforeInvocation"/>
+          <include name="isTopNavigationFailure"/>
+          <include name="getResultAfterMethod"/>
+          <include name="isTopNavigation4"/>
+          <include name="isTopNavigation3"/>
+          <include name="testProductDataProvider"/>
+          <include name="desktopTestSetup"/>
+          <include name="isDesktopSpecificTopNavigationWithRetry"/>
+          <include name="afterTestInvocation"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.demo.desktoptests.GlobalTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

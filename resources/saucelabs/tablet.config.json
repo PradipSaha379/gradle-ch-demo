@@ -1,0 +1,76 @@
+{
+	"remoteURL" : "https://jchitra:3bc07f39-cc64-464d-b430-a02d71be7b06@ondemand.us-west-1.saucelabs.com:443/wd/hub",
+	"commonCapabilities": {
+		"build": "Mobile Tests",
+		"recordScreenshots": true,
+		"recordVideo": true
+	},
+	
+	"os": {
+		"ios": {
+			"capabilities": {
+				"deviceOrientation": "portrait",
+				"platformName" : "iOS"
+			},
+			"devices": [
+				{
+					"deviceName": "iPhone XS Simulator",
+					"name": "SauceLabs:IOS Device:Tests",							
+					"platformVersion": "12.4",				
+					"browsers": [
+						{
+							"browserName": "Safari"
+						}
+					]
+				},
+				{
+					"deviceName": "iPhone 12 Simulator",
+					"name": "SauceLabs Device:Tests",
+					"appiumVersion": "1.20.1",
+					"platformVersion": "14.3",
+					"browsers": [
+						{
+							"browserName": "Safari"
+						}
+					]
+				}
+			]
+		},
+		"android": {
+			"capabilities": {
+				"platformName" : "Android",
+				"deviceOrientation": "portrait"
+			},
+			"devices": [
+				{
+					"deviceName": "Android GoogleAPI Emulator",
+					"name": "SauceLabs:Android Device:Tests",
+					"platformVersion": "9.0",
+					"browsers": [
+						{
+							"browserName": "chrome",
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true
+						}
+					]
+				},
+				{
+					"deviceName": "Samsung Galaxy S9 WQHD GoogleAPI Emulator",
+					"name": "SauceLabs:Android Device:Tests",
+					"platformVersion": "9.0",
+					"browsers": [
+						{
+							"browserName": "chrome",
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true
+						}
+					]
+				}
+			]
+		}
+	}
+}

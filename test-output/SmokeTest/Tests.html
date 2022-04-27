@@ -1,0 +1,1469 @@
+<html>
+<head>
+<title>TestNG:  Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/11</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 27 17:42:32 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (104 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1886212878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1886212878'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace336064992", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace336064992'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace988188142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace988188142'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace975409513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace975409513'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1365842658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1365842658'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1623988135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1623988135'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace970794902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace970794902'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1652507603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1652507603'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace886547335", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace886547335'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1265143544", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1265143544'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1949673349", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1949673349'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1575576380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1575576380'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1626133627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1626133627'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace373718577", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace373718577'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace845709968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace845709968'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1217865583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1217865583'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.beforeInvocation()'><b>beforeInvocation</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2137730199", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2137730199'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.desktopTestSetup()'><b>desktopTestSetup</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace545284062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace545284062'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd()'><b>isTopNavigationFailureWithCustomExceptionInTheEnd</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871899555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871899555'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.testStoreDataProvider()'><b>testStoreDataProvider</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getStoreData(AbstractGlobalTest.java:136)
+	... 12 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1016692584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1016692584'><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getStoreData(AbstractGlobalTest.java:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+	... 12 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigation5()'><b>isTopNavigation5</b><br>Test class: com.demo.desktoptests.GlobalTest<br>Parameters: public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace157093976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace157093976'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigation4()'><b>isTopNavigation4</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1341730639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1341730639'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigation2()'><b>isTopNavigation2</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404930053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404930053'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigation()'><b>isTopNavigation</b><br>Test class: com.demo.desktoptests.GlobalTest<br>Test method: Load homepage and verify top navigation details are loaded</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1345588813", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1345588813'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isDesktopSpecificTopNavigationWithRetry()'><b>isDesktopSpecificTopNavigationWithRetry</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1688861763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1688861763'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigation3()'><b>isTopNavigation3</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace84557809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace84557809'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigationFailure()'><b>isTopNavigationFailure</b><br>Test class: com.demo.desktoptests.GlobalTest<br>Parameters: public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace188148155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace188148155'><pre>com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.isTopNavigationFailureWithRetry()'><b>isTopNavigationFailureWithRetry</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace399236790", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace399236790'><pre>java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+<tr>
+<td title='com.demo.desktoptests.GlobalTest.testProductDataProvider()'><b>testProductDataProvider</b><br>Test class: com.demo.desktoptests.GlobalTest</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getProductsData(AbstractGlobalTest.java:128)
+	... 12 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace719212576", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace719212576'><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getProductsData(AbstractGlobalTest.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+	... 12 more
+</pre></div></td>
+<td>0</td>
+<td>com.demo.desktoptests.GlobalTest@481a996b</td></tr>
+</table><p>
+</body>
+</html>

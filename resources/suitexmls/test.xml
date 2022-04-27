@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="methods" name="SmokeTest">
+	<listeners>
+        <listener class-name="com.demo.listeners.SuiteAlterListener"/>
+        <listener class-name="com.ch.retry.RetryAnalyzerAnnotationTransformerListener"/>
+    </listeners>
+	<test name="Tests">
+		<groups>
+			<run>				
+			<include name="Smoke"/>
+			</run>
+		</groups>
+	</test>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="siteName" value="demo" />
+	<parameter name="projectName" value="demo"/>
+	<parameter name="environment" value="dev" />
+	<parameter name="formfactor" value="desktop" />
+	<parameter name="integration" value="local" />
+	<parameter name="os" value="windows" />
+	<parameter name="suite" value="Smoke" />
+	<parameter name="group" value="Full"/>
+	<parameter name="osVersion" value="" />
+	<parameter name="device" value="" />
+	<parameter name="autversion" value="" />
+	<parameter name="autURL" value="" />
+	<parameter name="executionId" value="dex-08"/>
+	<parameter name="subscriptionKey" value="62b53708-2927-4d46-9912-dbaf4e9cd4c7"/>
+</suite>

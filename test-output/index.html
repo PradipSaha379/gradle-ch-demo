@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SmokeTest" class="navigator-link">
+              <span class="suite-name border-skipped">SmokeTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SmokeTest" class="navigator-link ">
+                    <span>test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SmokeTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SmokeTest" class="navigator-link ">
+                    <span>8 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SmokeTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SmokeTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SmokeTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SmokeTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,  11 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SmokeTest" class="hide-methods skipped suite-SmokeTest"> (hide)</a> <!-- hide-methods skipped suite-SmokeTest -->
+                      <a href="#" panel-name="suite-SmokeTest" class="show-methods skipped suite-SmokeTest"> (show)</a> <!-- show-methods skipped suite-SmokeTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-SmokeTest">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isDesktopSpecificTopNavigationWithRetry">isDesktopSpecificTopNavigationWithRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigation">isTopNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigation2">isTopNavigation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigation3">isTopNavigation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigation4">isTopNavigation4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigation5(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java...)">isTopNavigation5(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigationFailure(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throw...)">isTopNavigationFailure(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throw...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigationFailureWithCustomExceptionInTheEnd">isTopNavigationFailureWithCustomExceptionInTheEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="isTopNavigationFailureWithRetry">isTopNavigationFailureWithRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="testProductDataProvider">testProductDataProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeTest" title="com.demo.desktoptests.GlobalTest" class="method navigator-link" hash-for-method="testStoreDataProvider">testStoreDataProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SmokeTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmokeTest" class="panel SmokeTest">
+          <div class="suite-SmokeTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.demo.desktoptests.GlobalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isDesktopSpecificTopNavigationWithRetry">
+                  </a> <!-- isDesktopSpecificTopNavigationWithRetry -->
+                  <span class="method-name">isDesktopSpecificTopNavigationWithRetry</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigation">
+                  </a> <!-- isTopNavigation -->
+                  <span class="method-name">isTopNavigation</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Load homepage and verify top navigation details are loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigation2">
+                  </a> <!-- isTopNavigation2 -->
+                  <span class="method-name">isTopNavigation2</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigation3">
+                  </a> <!-- isTopNavigation3 -->
+                  <span class="method-name">isTopNavigation3</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigation4">
+                  </a> <!-- isTopNavigation4 -->
+                  <span class="method-name">isTopNavigation4</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigation5(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java...)">
+                  </a> <!-- isTopNavigation5(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java...) -->
+                  <span class="method-name">isTopNavigation5</span>
+                  <span class="parameters">(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigationFailure(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throw...)">
+                  </a> <!-- isTopNavigationFailure(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throw...) -->
+                  <span class="method-name">isTopNavigationFailure</span>
+                  <span class="parameters">(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigationFailureWithCustomExceptionInTheEnd">
+                  </a> <!-- isTopNavigationFailureWithCustomExceptionInTheEnd -->
+                  <span class="method-name">isTopNavigationFailureWithCustomExceptionInTheEnd</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isTopNavigationFailureWithRetry">
+                  </a> <!-- isTopNavigationFailureWithRetry -->
+                  <span class="method-name">isTopNavigationFailureWithRetry</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductDataProvider">
+                  </a> <!-- testProductDataProvider -->
+                  <span class="method-name">testProductDataProvider</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getProductsData(AbstractGlobalTest.java:128)
+	... 12 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStoreDataProvider">
+                  </a> <!-- testStoreDataProvider -->
+                  <span class="method-name">testStoreDataProvider</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getStoreData(AbstractGlobalTest.java:136)
+	... 12 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTest-class-skipped -->
+        </div> <!-- panel SmokeTest -->
+        <div panel-name="test-xml-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/user/WorkSpace/demo-framework-v2/resources/suitexmls/test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;6&quot; parallel=&quot;methods&quot; name=&quot;SmokeTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;autversion&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;formfactor&quot; value=&quot;desktop&quot;/&gt;
+  &lt;parameter name=&quot;autURL&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+  &lt;parameter name=&quot;siteName&quot; value=&quot;demo&quot;/&gt;
+  &lt;parameter name=&quot;subscriptionKey&quot; value=&quot;62b53708-2927-4d46-9912-dbaf4e9cd4c7&quot;/&gt;
+  &lt;parameter name=&quot;executionId&quot; value=&quot;dex-08&quot;/&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+  &lt;parameter name=&quot;suite&quot; value=&quot;Smoke&quot;/&gt;
+  &lt;parameter name=&quot;osVersion&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;integration&quot; value=&quot;local&quot;/&gt;
+  &lt;parameter name=&quot;projectName&quot; value=&quot;demo&quot;/&gt;
+  &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;group&quot; value=&quot;Full&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.demo.listeners.SuiteAlterListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.ch.retry.RetryAnalyzerAnnotationTransformerListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;packages&gt;
+    &lt;package name=&quot;com.demo.desktoptests&quot;/&gt;
+  &lt;/packages&gt;
+  &lt;test thread-count=&quot;6&quot; parallel=&quot;methods&quot; name=&quot;Tests&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.demo.desktoptests&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demo.desktoptests.GlobalTest&quot;/&gt;
+      &lt;class name=&quot;com.demo.desktoptests.GlobalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests --&gt;
+&lt;/suite&gt; &lt;!-- SmokeTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">DP</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testProductDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testStoreDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Home</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isDesktopSpecificTopNavigationWithRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailure</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailureWithCustomExceptionInTheEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailureWithRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testProductDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testStoreDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">MyAccount</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailure</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailureWithCustomExceptionInTheEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P140</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isDesktopSpecificTopNavigationWithRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailureWithRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isDesktopSpecificTopNavigationWithRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailure</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailureWithCustomExceptionInTheEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isTopNavigationFailureWithRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testProductDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testStoreDataProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeTest');
+function tableData_SmokeTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'isTopNavigationFailureWithCustomExceptionInTheEnd')
+data.setCell(0, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testStoreDataProvider')
+data.setCell(1, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'isTopNavigation5')
+data.setCell(2, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'isTopNavigation4')
+data.setCell(3, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'isTopNavigation2')
+data.setCell(4, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'isTopNavigation')
+data.setCell(5, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'isDesktopSpecificTopNavigationWithRetry')
+data.setCell(6, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'isTopNavigation3')
+data.setCell(7, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isTopNavigationFailure')
+data.setCell(8, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'isTopNavigationFailureWithRetry')
+data.setCell(9, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testProductDataProvider')
+data.setCell(10, 2, 'com.demo.desktoptests.GlobalTest')
+data.setCell(10, 3, 0);
+window.suiteTableData['SmokeTest']= { tableData: data, tableDiv: 'times-div-SmokeTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-SmokeTest">
+              </div> <!-- times-div-SmokeTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.desktoptests.GlobalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpRunConfig(dev, desktop, local, Smoke, Full, windows, , chrome, null, , , , null, dex-08, demo, demo, 62b53708-...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">143 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigation() throws java.lang.Exception, org.test...)</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java...)</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throw...)</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigation2() throws java.lang.Exception, org.tes...)</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigationFailure(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throw...)</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigation4() throws java.lang.Exception, org.tes...)</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigation3() throws java.lang.Exception, org.tes...)</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigation3</span>
+                <span class="method-start">210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation3()[pri:0, instance:...)</span>
+                <span class="method-start">212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigation5(public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java...)</span>
+                <span class="method-start">213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigation</span>
+                <span class="method-start">214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation5(java.lang.reflect....)</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigation4</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigation2</span>
+                <span class="method-start">221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigationFailure(java.lang.re...)</span>
+                <span class="method-start">225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation4()[pri:0, instance:...)</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation2()[pri:0, instance:...)</span>
+                <span class="method-start">229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation()[pri:0, instance:c...)</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd() th...)</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigationFailureWithCustomExceptionInTheEnd</span>
+                <span class="method-start">232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigationFailureWithCustomExc...)</span>
+                <span class="method-start">236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeInvocation</span>
+                <span class="method-start">237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailureWithRetry() throws java.lang.Exc...)</span>
+                <span class="method-start">244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.demo.desktoptests.GlobalTest.isDesktopSpecificTopNavigationWithRetry() throws java.l...)</span>
+                <span class="method-start">245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">desktopTestSetup</span>
+                <span class="method-start">246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isTopNavigationFailureWithRetry</span>
+                <span class="method-start">246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isDesktopSpecificTopNavigationWithRetry</span>
+                <span class="method-start">248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigationFailureWithRetry()[p...)</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResultAfterMethod([TestResult name={null} status=CREATED method=GlobalTest.isDesktopSpecificTopNavigationWithRetry()[p...)</span>
+                <span class="method-start">251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestInvocation</span>
+                <span class="method-start">252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">324 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="0" failed="0" skipped="11">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-27T17:42:32 IST" name="SmokeTest" finished-at="2022-04-27T17:42:32 IST" duration-ms="104">
+    <groups>
+      <group name="P1">
+        <method signature="AbstractGlobalTest.isTopNavigation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation3()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation3" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation4()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation4" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation5" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailure" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailureWithCustomExceptionInTheEnd" class="com.demo.tests.AbstractGlobalTest"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="AbstractGlobalTest.isTopNavigation2()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation2" class="com.demo.tests.AbstractGlobalTest"/>
+      </group> <!-- P2 -->
+      <group name="P140">
+        <method signature="AbstractGlobalTest.isTopNavigationFailureWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailureWithRetry" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="GlobalTest.isDesktopSpecificTopNavigationWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isDesktopSpecificTopNavigationWithRetry" class="com.demo.desktoptests.GlobalTest"/>
+      </group> <!-- P140 -->
+      <group name="Regression">
+        <method signature="AbstractGlobalTest.isTopNavigation4()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation4" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation5" class="com.demo.tests.AbstractGlobalTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AbstractGlobalTest.isTopNavigation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation2()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation2" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation3()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation3" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation4()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation4" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation5" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailure" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailureWithCustomExceptionInTheEnd" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailureWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailureWithRetry" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.testProductDataProvider(java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="testProductDataProvider" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.testStoreDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="testStoreDataProvider" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="GlobalTest.isDesktopSpecificTopNavigationWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isDesktopSpecificTopNavigationWithRetry" class="com.demo.desktoptests.GlobalTest"/>
+      </group> <!-- Smoke -->
+      <group name="DP">
+        <method signature="AbstractGlobalTest.testProductDataProvider(java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="testProductDataProvider" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.testStoreDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="testStoreDataProvider" class="com.demo.tests.AbstractGlobalTest"/>
+      </group> <!-- DP -->
+      <group name="Home">
+        <method signature="AbstractGlobalTest.isTopNavigation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation2()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation2" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation4()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation4" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailure" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailureWithCustomExceptionInTheEnd" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigationFailureWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigationFailureWithRetry" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.testProductDataProvider(java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="testProductDataProvider" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.testStoreDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="testStoreDataProvider" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="GlobalTest.isDesktopSpecificTopNavigationWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isDesktopSpecificTopNavigationWithRetry" class="com.demo.desktoptests.GlobalTest"/>
+      </group> <!-- Home -->
+      <group name="MyAccount">
+        <method signature="AbstractGlobalTest.isTopNavigation3()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation3" class="com.demo.tests.AbstractGlobalTest"/>
+        <method signature="AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" name="isTopNavigation5" class="com.demo.tests.AbstractGlobalTest"/>
+      </group> <!-- MyAccount -->
+    </groups>
+    <test started-at="2022-04-27T17:42:32 IST" name="Tests" finished-at="2022-04-27T17:42:32 IST" duration-ms="104">
+      <class name="com.demo.desktoptests.GlobalTest">
+        <test-method is-config="true" signature="setUpRunConfig(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="setUpRunConfig" finished-at="2022-04-27T17:42:32 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Full]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value is-null="true"/>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[dex-08]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[62b53708-2927-4d46-9912-dbaf4e9cd4c7]]>
+              </value>
+            </param>
+            <param index="17">
+              <value is-null="true"/>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRunConfig -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeSuite" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.setUpRunConfig" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="39" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="25" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="26" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="27" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="24" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="25" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigation() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigation2() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method signature="isTopNavigationFailure(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigationFailure" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigationFailure -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigation4() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigation3() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method signature="isTopNavigation3()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigation3" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigation3 -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation3()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method signature="isTopNavigation5(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigation5" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigation5 -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method signature="isTopNavigation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigation" description="Load homepage and verify top navigation details are loaded" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigation -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method signature="isTopNavigation4()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigation4" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigation4 -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method signature="isTopNavigation2()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigation2" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigation2 -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="2" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="15" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation4()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation2()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method signature="isTopNavigationFailureWithCustomExceptionInTheEnd()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigationFailureWithCustomExceptionInTheEnd" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigationFailureWithCustomExceptionInTheEnd -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigationFailureWithCustomExceptionInTheEnd()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method signature="testStoreDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="testStoreDataProvider" data-provider="store" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+dataProvider cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+dataProvider cannot be resolved
+
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+dataProvider cannot be resolved
+
+at com.demo.tests.AbstractGlobalTest.getStoreData(AbstractGlobalTest.java:136)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 12 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreDataProvider -->
+        <test-method is-config="true" signature="beforeInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeInvocation" finished-at="2022-04-27T17:42:32 IST" duration-ms="6" status="FAIL">
+          <exception class="com.ch.reports.FrameworkException">
+            <message>
+              <![CDATA[com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.ch.reports.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeInvocation -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method signature="testProductDataProvider(java.lang.String)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="testProductDataProvider" data-provider="products" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+dataProvider cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+dataProvider cannot be resolved
+
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+dataProvider cannot be resolved
+
+at com.demo.tests.AbstractGlobalTest.getProductsData(AbstractGlobalTest.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 12 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductDataProvider -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailureWithRetry() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="beforeTest" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTestSetup.beforeInvocation" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.desktoptests.GlobalTest.isDesktopSpecificTopNavigationWithRetry() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7915bca3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method is-config="true" signature="desktopTestSetup()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="desktopTestSetup" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.beforeTest" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopTestSetup -->
+        <test-method signature="isTopNavigationFailureWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isTopNavigationFailureWithRetry" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTopNavigationFailureWithRetry -->
+        <test-method signature="isDesktopSpecificTopNavigationWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="isDesktopSpecificTopNavigationWithRetry" finished-at="2022-04-27T17:42:32 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDesktopSpecificTopNavigationWithRetry -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractGlobalTest.isTopNavigationFailureWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method is-config="true" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="getResultAfterMethod" finished-at="2022-04-27T17:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GlobalTest.isDesktopSpecificTopNavigationWithRetry()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method is-config="true" signature="afterTestInvocation()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterTestInvocation" finished-at="2022-04-27T17:42:32 IST" depends-on-methods="com.ch.test.AbstractTest.getResultAfterMethod" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestInvocation -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.desktoptests.GlobalTest@481a996b]" started-at="2022-04-27T17:42:32 IST" name="afterSuite" finished-at="2022-04-27T17:42:54 IST" duration-ms="21802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.demo.desktoptests.GlobalTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- SmokeTest -->
+</testng-results>

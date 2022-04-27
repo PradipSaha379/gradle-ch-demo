@@ -1,0 +1,68 @@
+{
+	"server": "",
+	"username": "CHCLOUD_USERNAME",
+	"accesskey": "CHCLOUD_ACCESS_KEY",
+	"commonCapabilities": {
+		
+	},
+	"os": {
+		"windows": {
+			"capabilities": {
+				
+			},
+			"browsers": [
+				{
+					"browserName": "chrome",
+					"unexpectedAlertBehaviour": "accept",
+					"handlesAlerts": true,
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true
+				},
+				{
+					"browserName": "ie",
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true,
+					"ie.ensureCleanSession": true
+				},
+				{
+					"browserName": "edge",
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true
+				},
+				{
+					"browserName": "firefox",
+					"marionette": true,
+					"acceptSslCerts": true,
+					"acceptInsecureCerts": true
+				}
+			]
+		},
+		"mac": {
+			"capabilities": {
+				
+			},
+			"browsers": [
+				{
+					"browserName": "safari"
+				}
+			]
+		},
+		"linux": {
+			"capabilities": {
+				
+			},
+			"browsers": [
+				{
+					"browserName": "chrome",
+					"args": "[--headless, --disable-gpu,  --disable-dev-shm-usage, --no-sandbox]"
+				},
+				{
+					"browserName": "firefox",
+					"args": "[enable-automation, --headless, --disable-gpu, --disable-dev-shm-usage, --no-sandbox, window-size=1920,800]"
+				}
+			]
+		}
+	}
+}
+
+

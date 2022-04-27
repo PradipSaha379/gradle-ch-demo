@@ -1,0 +1,67 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"username": "smustaq1",
+	"accesskey": "jc4g4SP2RfuV4c38PNYa",
+	"commonCapabilities": {
+		"buildName": "Tablet Tests",
+		"debug": false,
+		"video": false,
+		"console": "disable",
+		"networkLogs": false,
+		"maskCommands": "setValues, getValues, setCookies, getCookies",
+		"appiumLogs": true,
+		"local": false
+	},
+	"os": {
+		"ios": {
+			"capabilities": {
+				"realMobile": false,
+				"appiumVersion": "13",
+				"deviceOrientation": "portrait"
+			},
+			"devices": [
+				{
+					"deviceName": "iPad Air 4",
+					"sessionName": "BrowserStack:IOS Tablet:Tests",
+					"realMobile": true,
+					"appiumVersion": "1.18.0",
+					"osVersion": "14",
+					"browsers": [
+						{
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": false
+						}
+					]
+				}
+			]
+		},
+		"android": {
+			"capabilities": {
+				"realMobile": false,
+				"deviceOrientation": "portrait"
+			},
+			"devices": [
+				{
+					"deviceName": "Samsung Galaxy Tab",
+					"sessionName": "BrowserStack:Android Tablet:Tests",
+					"realMobile": true,
+					"osVersion": "117.0",
+					"browsers": [
+						{
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": false
+						}
+					]
+				}
+			]
+		}
+	}
+}
+
+

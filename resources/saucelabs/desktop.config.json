@@ -1,0 +1,71 @@
+{
+	"remoteURL" : "https://jchitra:3bc07f39-cc64-464d-b430-a02d71be7b06@ondemand.us-west-1.saucelabs.com:443/wd/hub",
+	"commonCapabilities": {
+		"name": "SauceLabs - KSNA",
+		"build": "Desktop Tests",
+		"recordScreenshots": true,
+		"recordVideo": true
+	},
+	"os": {
+		"windows": {
+			"capabilities": {
+				"platformName": "Windows 10"
+			},
+			"browsers": [
+				{
+					"name": "SauceLabs:Windows:Chrome:Tests",
+					"browserName": "chrome",
+					"browserVersion": "latest",
+					"acceptInsecureCerts": true,
+					"unhandledPromptBehavior" : "dismiss"
+				},
+				{
+					"name": "SauceLabs:Windows:IE:Tests",
+					"browserName": "IE",
+					"browserVersion": "11.0",
+					"osVersion": "8.1",
+					"browserstack.sendKeys": true,
+					"noFlash": true,
+					"enablePopups": true,
+					"unhandledPromptBehavior" : "dismiss"
+				},
+				{
+					"name": "SauceLabs:Windows:Edge:Tests",
+					"browserName": "edge",
+					"browserVersion": "latest",
+					"enablePopups": true
+				},
+				{
+					"name": "SauceLabs:Windows:Firefox:Tests",
+					"browserName": "firefox",
+					"browserVersion": "latest",
+					"enablePopups": true
+				}
+			]
+		},
+		"mac": {
+			"capabilities": {
+				"platformName": "macOS 10.15"
+			},
+			"browsers": [
+				{
+					"name": "BrowserStack:Mac:Chrome:Tests",
+					"browserName": "chrome",
+					"browserVersion": "latest"
+				},
+				{
+					"name": "BrowserStack:Mac:Safari:Tests",
+					"browserName": "Safari"
+				},
+				{
+					"name": "BrowserStack:Mac:Firefox:Tests",
+					"browserName": "Firefox"
+				},
+				{
+					"sessionName": "BrowserStack:Mac:Edge:Tests",
+					"browserName": "edge"
+				}
+			]
+		}
+	}
+}

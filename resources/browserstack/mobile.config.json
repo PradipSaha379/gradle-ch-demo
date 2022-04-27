@@ -1,0 +1,112 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"username": "smustaq1",
+	"accesskey": "jc4g4SP2RfuV4c38PNYa",
+	"commonCapabilities": {
+		"buildName": "Mobile Tests",
+		"debug": true,
+		"video": true,
+		"networkLogs": true,
+		"maskCommands": "setValues, getValues, setCookies, getCookies",
+		"local": false
+	},
+	"os": {
+		"ios": {
+			"capabilities": {
+				"deviceOrientation": "portrait"
+			},
+			"devices": [
+				{
+					"deviceName": "iPhone 12",
+					"sessionName": "BrowserStack:IOS Device:Tests",
+					"realMobile": true,
+					"browsers": [
+						{
+							"browserName": "safari",
+							"os": "OS X",
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": true
+						}
+					]
+				},
+				{
+					"deviceName": "iPhone SE",
+					"realMobile": true,
+					"sessionName": "BrowserStack:IOS Device:Tests",
+					"browsers": [
+						{
+							"browserName": "safari",
+							"os": "OS X",
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": false
+						}
+					]
+				}
+			]
+		},
+		"android": {
+			"capabilities": {
+				"realMobile": false,
+				"appiumVersion": "1.16.0",
+				"deviceOrientation": "portrait",
+				"sessionName": "from property file"
+			},
+			"devices": [
+				{
+					"deviceName": "Samsung Galaxy S8",
+					"sessionName": "BrowserStack:Android Device:Tests",
+					"realMobile": true,
+					"osVersion": "7.0",
+					"browsers": [
+						{
+							"browserName": "chrome",
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": false
+						}
+					]
+				},
+				{
+					"deviceName": "Google Pixel 4",
+					"sessionName": "BrowserStack:Android Device:Tests",
+					"realMobile": true,
+					"osVersion": "7.0",
+					"browsers": [
+						{
+							"browserName": "chrome",
+							"acceptSslCerts": true,
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": false
+						}
+					]
+				},
+				{
+					"deviceName": "Google Pixel 4",
+					"realMobile": true,
+					"appiumVersion": "1.15.0",
+					"osVersion": "10.0",
+					"browsers": [
+						{
+							"browserName": "chrome",
+							"enableFlash": true,
+							"enablePopups": true,
+							"allowAllCookies": true,
+							"realMobile": false
+						}
+					]
+				}
+			]
+		}
+	}
+}
+
+

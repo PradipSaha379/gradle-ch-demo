@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">SmokeTest</th></tr>
+<tr><td><a href="#t0">Tests</a></td><td class="num">0</td><td class="num attn">11</td><td class="num">0</td><td class="num">0</td><td class="num">104</td><td>Smoke</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="18">com.demo.desktoptests.GlobalTest</td><td><a href="#m0">beforeInvocation</a></td><td rowspan="9">1651061552822</td><td rowspan="9">39</td></tr><tr class="failedeven"><td><a href="#m1">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m2">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m3">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m4">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m5">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m6">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m7">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m8">beforeInvocation</a></td></tr><tr class="failedeven"><td><a href="#m9">desktopTestSetup</a></td><td rowspan="9">1651061552864</td><td rowspan="9">0</td></tr><tr class="failedeven"><td><a href="#m10">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m11">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m12">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m13">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m14">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m15">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m16">desktopTestSetup</a></td></tr><tr class="failedeven"><td><a href="#m17">desktopTestSetup</a></td></tr><tr><th colspan="4">Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="11">com.demo.desktoptests.GlobalTest</td><td><a href="#m18">isDesktopSpecificTopNavigationWithRetry</a></td><td rowspan="1">1651061552904</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m19">isTopNavigation</a></td><td rowspan="1">1651061552870</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m20">isTopNavigation2</a></td><td rowspan="1">1651061552877</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m21">isTopNavigation3</a></td><td rowspan="1">1651061552866</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m22">isTopNavigation4</a></td><td rowspan="1">1651061552875</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m23">isTopNavigation5</a></td><td rowspan="1">1651061552869</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m24">isTopNavigationFailure</a></td><td rowspan="1">1651061552862</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m25">isTopNavigationFailureWithCustomExceptionInTheEnd</a></td><td rowspan="1">1651061552888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m26">isTopNavigationFailureWithRetry</a></td><td rowspan="1">1651061552902</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m27">testProductDataProvider</a></td><td rowspan="1">1651061552897</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m28">testStoreDataProvider</a></td><td rowspan="1">1651061552892</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Tests</h2><h3 id="m0">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.demo.desktoptests.GlobalTest#beforeInvocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.demo.desktoptests.GlobalTest#desktopTestSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.demo.desktoptests.GlobalTest#isDesktopSpecificTopNavigationWithRetry</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.demo.desktoptests.GlobalTest#isTopNavigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.demo.desktoptests.GlobalTest#isTopNavigation2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.demo.desktoptests.GlobalTest#isTopNavigation3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.demo.desktoptests.GlobalTest#isTopNavigation4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.demo.desktoptests.GlobalTest#isTopNavigation5</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.demo.tests.AbstractGlobalTest.isTopNavigation5(java.lang.reflect.Method) throws java.lang.Exception</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.demo.desktoptests.GlobalTest#isTopNavigationFailure</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.demo.tests.AbstractGlobalTest.isTopNavigationFailure(java.lang.reflect.Method) throws java.lang.Exception</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.ch.reports.FrameworkException: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:192)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ch.reports.FrameworkException: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:202)
+	at com.ch.test.AbstractTestSetup.beforeInvocation(AbstractTestSetup.java:189)
+	... 19 more
+Caused by: java.lang.IllegalStateException: The driver executable must exist: /home/user/WorkSpace/demo-framework-v2/./resources/drivers/windows/chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.ch.utils.DriverFactory.getLocal(DriverFactory.java:147)
+	at com.ch.utils.DriverFactory.getDriverInstance(DriverFactory.java:70)
+	at com.ch.utils.DriverFactory.setWebDriver(DriverFactory.java:50)
+	at com.ch.test.AbstractTestSetup.setWebDriver(AbstractTestSetup.java:199)
+	... 20 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.demo.desktoptests.GlobalTest#isTopNavigationFailureWithCustomExceptionInTheEnd</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.demo.desktoptests.GlobalTest#isTopNavigationFailureWithRetry</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.demo.common.utils.CommonUtils.desktopView(CommonUtils.java:88)
+	at com.demo.common.utils.DesktopTestUtil.testSetup(DesktopTestUtil.java:6)
+	at com.demo.desktoptests.GlobalTest.desktopTestSetup(GlobalTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.demo.desktoptests.GlobalTest#testProductDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getProductsData(AbstractGlobalTest.java:128)
+	... 12 more
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.demo.desktoptests.GlobalTest#testStoreDataProvider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	dataProvider cannot be resolved
+
+	at com.demo.tests.AbstractGlobalTest.getStoreData(AbstractGlobalTest.java:136)
+	... 12 more
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
